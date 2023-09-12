@@ -1,0 +1,40 @@
+Hello connections!
+I am glad to share my first Spotify Clone.
+
+Skills:HTML and CSS 
+
+Hope you like it!!
+
+PS:I know its not the perfect clone,It's just my first try...
+
+
+
+
+
+"🎶👨‍💻 Just launched my own Spotify clone app, thanks to the incredible learning resources at Apna College! 🚀📚 I've crafted the front-end using HTML and CSS, bringing my vision to life. Music lovers, get ready for a new groove! 🎵💻 #SpotifyClone #HTML #CSS #ApnaCollege #CodingJourney"
+
+
+
+///FINAL CAPTION
+
+
+
+
+Hello, Connections!
+
+🎶👨‍💻I am glad to share my first Spotify Clone.
+
+thanks to the incredible learning resources at Apna College and Shradha Khapra Didi! 🚀📚
+
+I've crafted the front end using HTML and CSS
+
+I hope you like it.
+
+
+GitHub link: https://github.com/priyanshudayal1/Web-Development-Projects.git
+
+
+PS: I know it's not the perfect clone, It's just my first try...
+
+🎵💻 #SpotifyClone #html  #css  #apnacollege  #codingjourney
+

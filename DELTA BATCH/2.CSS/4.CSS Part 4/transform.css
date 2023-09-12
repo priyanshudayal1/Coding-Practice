@@ -1,0 +1,52 @@
+section{
+    margin-top: 100px;
+}
+
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: ;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+div:nth-of-type(2n){
+    background-color: ;
+}
+
+div:nth-last-of-type(){
+    background-color: yellow;
+}
+
+#one:hover{
+    transform: rotate(-360deg);
+    transition: 2s;
+}
+
+#two:hover{
+    transform: scale(1.5);
+    transition: 2s;
+}
+
+#three:hover{
+    transform: translateY(50px);
+    transition: 2;
+}
+#four:hover{
+    transform: skew(-100deg);
+    transition: 2s;
+    
+}
+
+#five:hover{
+    transform: rotate(30deg) translateX(150px);
+    transition: 2s;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1692401134669-4622e26ebede?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80");
+}
+#six{
+    border: none;
+    box-shadow: 2px 2px 8px yellow;
+
+}

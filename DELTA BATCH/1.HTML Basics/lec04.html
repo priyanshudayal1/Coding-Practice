@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lec 04</title>
+</head>
+<body>
+    <h1>Table 1</h1>
+    <table border="black">
+        <caption>Table 1</caption>
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Samosa</td>
+            <td>20 RS</td>
+        </tr>
+        <tr><td>Frooti</td>
+        <td>10 RS</td></tr>
+        <tr><td>Chips</td>
+        <td>20 RS</td></tr>
+    </table>
+    <form action="/action.php">
+        <label for="username">
+            Enter your username
+            <input type="text" id="username"> 
+        </label> <br>
+        <input type="text"> <br>
+        Password
+        <input type="password" placeholder="enter your user name here">
+        <br>
+        checkbox
+        <input type="checkbox">
+        <button>Submit</button>
+        <button type="reset">Reset</button>
+        <label for="username"> Username 2 : 
+            <input type="text" name="username" id="username">
+        </label>
+        <input type="checkbox" name="age" id="age">
+        <label for="age"> I am 18+</label>
+        <input type="radio" name="fruit" id="apple" value="apple">
+        <label for="apple"> Apple</label>
+        <select name="profession" id="profession">
+            <option value="se">Software Engineer</option>
+            <option value="dev">Developer</option>
+            <option value="pl">Player</option>
+        </select>
+        <label for="profession"> Select your profession : </label><br>
+        <label for="volume">Volume </label>
+        <input type="range" min="0" max="100" name="vol">
+        <button>Submit</button>
+    </form>
+</body>
+</html>

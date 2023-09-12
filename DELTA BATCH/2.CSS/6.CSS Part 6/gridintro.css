@@ -1,0 +1,22 @@
+.cont{
+    width: 600px;
+    height: 300px;
+    background-color: black;    
+    /* grid-template-columns:50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px ; */
+    /*   */
+    display: grid;
+    row-gap: 15px;
+
+}
+
+.item{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background-color: greenyellow;
+    border: 2px solid black;
+}
+#two{
+   grid-row: 1/3;
+}

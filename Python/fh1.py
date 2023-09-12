@@ -1,0 +1,6 @@
+f=open(r"C:\Users\Piyush Dayal\Desktop\file.txt.txt")
+a=f.readlines()
+f1=open("C:\\Users\\Piyush Dayal\\Desktop\\fh1.txt","w")
+b=f1.writelines(a)
+f1.close()
+f.close()

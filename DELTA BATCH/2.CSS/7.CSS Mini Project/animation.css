@@ -1,0 +1,37 @@
+.box{
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+    animation-name: widthAnimate;
+    animation-duration: 2s;
+    animation-timing-function:ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse ;
+}
+
+@keyframes widthAnimate {
+    from{
+        width: 100px;
+    }
+    to{
+        width: 600px;
+    }
+
+    
+}
+
+@keyframes fontAnimation{
+    from{font-size:20px;}
+    to{font-size:40px;}
+}
+
+@keyframes coloranimate {
+    from{
+        background-color: green;
+    }
+    to{
+        background-color: blue;
+    }
+    
+}
