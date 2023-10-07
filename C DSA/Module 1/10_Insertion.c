@@ -2,7 +2,6 @@
 
 void display(int arr[],int n){
     //Traversal
-
     for(int i =0;i<n;i++){
         printf("%d ",arr[i]);
     }
