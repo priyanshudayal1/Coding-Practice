@@ -8,6 +8,14 @@ struct stack
     int *arr;
 };
 
+int stackTop(struct stack *s){
+    return s->arr[s->top];
+}
+
+int stackBottom(struct stack *s){
+    return s->arr[0 ];
+}
+
 int isFull(struct stack *s){
     if (s->size-1<=s->top){
         return 1;
@@ -37,10 +45,13 @@ int pop(struct stack *s){
     return poped;
 }
 
-void peek(struct stack *s){
-    while ((s->top)!=-1){
-        printf("%d \n",s->arr[s->top]);
-        s->top--;
+int peek(struct stack *s,int i ){
+    if(s->top-i+1<0){
+        printf("Not a valid position");
+        return -1;
+    }
+    else{
+        return s->arr[s->top-i+1];
     }
 }
 
@@ -87,8 +98,9 @@ int main(){
 
         }
         else if(ch==3){
-            printf("Top-->>\t");
-            peek(s);
+            for(int j=1;j<s->top+1;j++){
+                printf("The value at position %d is %d \n",j,peek(s,j));
+            }
         }
         else if(ch==4){
             int r=isEmpty(s);
